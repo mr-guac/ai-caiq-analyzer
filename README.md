@@ -11,7 +11,7 @@ and analyst-grade flags for each domain. Results are saved to a
 vendor-named JSON file for analyst review.
 
 **Cost:** Under $1 per full vendor assessment.  
-**Runtime:** Under 2 minutes for a complete 17-domain CAIQ.
+**Runtime:** Under 5 minutes for a complete 17-domain CAIQ.
 
 ---
 
