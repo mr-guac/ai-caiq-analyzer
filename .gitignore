@@ -1,0 +1,18 @@
+# API key and config
+.env
+
+# Vendor data files
+*.xlsx
+
+# Results output
+*_results.json
+!sample_results.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# macOS
+.DS_Store

@@ -1,0 +1,218 @@
+{
+  "vendor_name": "Microsoft",
+  "final_score": 6.59,
+  "final_maturity": "Medium",
+  "scored_domains": 17,
+  "total_domains_in_caiq": 17,
+  "missing_domains": [],
+  "score_is_complete": true,
+  "domain_results": [
+    {
+      "domain_code": "A&A",
+      "domain_name": "Audit & Assurance",
+      "score": 6,
+      "maturity": "Medium",
+      "summary": "Microsoft demonstrates established audit frameworks and external certifications but provides limited operational detail about internal processes. Responses consistently reference high-level programs without specifics on implementation, frequency, or ownership. The vendor appears to have mature external audit capabilities but internal audit management details are vague.",
+      "flags": [
+        "Generic responses lacking operational specifics across multiple controls",
+        "Heavy reliance on referencing external certifications without detailing internal processes",
+        "No specific details on audit frequencies, responsible roles, or remediation timelines"
+      ]
+    },
+    {
+      "domain_code": "AIS",
+      "domain_name": "Application & Interface Security",
+      "score": 6,
+      "maturity": "Medium",
+      "summary": "Microsoft demonstrates a structured approach to application security through their SDL methodology and established processes. However, responses consistently lack operational specificity and rely heavily on high-level program descriptions rather than demonstrating actual implementation details. The vendor shows evidence of having security programs in place but provides insufficient detail to verify their operational effectiveness.",
+      "flags": [
+        "Generic responses that could apply to any cloud provider - lack of specific implementation details",
+        "Heavy reliance on SDL program references without explaining actual operational practices",
+        "Minimal evidence of automation specifics despite claiming automated capabilities",
+        "Vulnerability remediation process described at policy level without operational detail"
+      ]
+    },
+    {
+      "domain_code": "BCR",
+      "domain_name": "Business Continuity & Resiliency",
+      "score": 8,
+      "maturity": "High",
+      "summary": "Microsoft demonstrates a mature enterprise BCM framework with specific operational details across most controls. Strong evidence of structured governance, testing programs, and technical implementation. Minor gaps in communication specificity and some generic responses reduce the score from exemplary.",
+      "flags": [
+        "BCR-01.2 response lacks specificity - only mentions annual review without operational details",
+        "BCR-05.1 provides framework components but no evidence of actual documentation development processes",
+        "BCR-07.1 response doesn't address communication with external stakeholders during BC events"
+      ]
+    },
+    {
+      "domain_code": "CCC",
+      "domain_name": "Change Control & Configuration Management",
+      "score": 6,
+      "maturity": "Medium",
+      "summary": "Microsoft Azure demonstrates established change management processes with formal SOPs and SDL integration, but responses lack operational specificity and contain concerning inconsistencies. The vendor provides generic process descriptions without detailing implementation mechanics, monitoring frequencies, or responsible roles.",
+      "flags": [
+        "CCC-05.1 response does not address SLA provisions for customer authorization - discusses source code access controls instead",
+        "Repetitive boilerplate language across multiple controls suggests copy-paste approach rather than control-specific assessment",
+        "Lack of specific details on Change Control Board composition, approval workflows, or notification timelines",
+        "No mention of customer communication processes or maintenance windows despite SLA-related questions"
+      ]
+    },
+    {
+      "domain_code": "CEK",
+      "domain_name": "Cryptography, Encryption & Key Management",
+      "score": 8,
+      "maturity": "High",
+      "summary": "Microsoft Azure demonstrates strong cryptographic controls with comprehensive policies, FIPS-validated HSMs, and mature key lifecycle management. The vendor provides specific technical details about their PKI infrastructure, Azure Key Vault capabilities, and compliance with industry standards. Some responses could benefit from more operational detail about monitoring and change management processes.",
+      "flags": [
+        "CEK-06.1 response is generic and doesn't address the specific requirement for cost-benefit analysis and downstream effects assessment",
+        "Several responses reference the same general procedures without demonstrating specific implementation details for individual control requirements"
+      ]
+    },
+    {
+      "domain_code": "DCS",
+      "domain_name": "Datacenter Security",
+      "score": 8,
+      "maturity": "High",
+      "summary": "Microsoft demonstrates strong datacenter security controls with specific references to NIST 800-88 compliance, Azure infrastructure, and comprehensive physical security measures. Responses consistently reference specific tools, processes, and standards. Minor weakness in some responses lacking operational detail about frequencies and responsible roles.",
+      "flags": [
+        "Several responses rely heavily on 'part of Microsoft information security policy' without providing specific policy details or implementation specifics"
+      ]
+    },
+    {
+      "domain_code": "DSP",
+      "domain_name": "Data Security & Privacy Lifecycle Management",
+      "score": 8,
+      "maturity": "High",
+      "summary": "Microsoft demonstrates strong data lifecycle management with comprehensive policies, technical controls, and regulatory compliance frameworks. Responses consistently reference specific standards (ISO 27001, NIST 800-88, GDPR) and operational details like quarterly reviews and 30-day response times. The weakest area is DSP-13 and DSP-14 where responses rely heavily on referencing the Data Protection Addendum without providing substantive detail about actual processes.",
+      "flags": [
+        "DSP-13.1 and DSP-14.1 responses are identical and provide no operational detail beyond referencing the DPA",
+        "Some responses could benefit from more specific technical implementation details rather than policy references"
+      ]
+    },
+    {
+      "domain_code": "GRC",
+      "domain_name": "Governance, Risk & Compliance",
+      "score": 6,
+      "maturity": "Medium",
+      "summary": "Microsoft Azure demonstrates established GRC frameworks with annual review cycles and formal processes, but responses lack operational specificity and rely heavily on high-level policy statements. While the foundational governance structure appears sound, the vendor provides minimal detail about implementation mechanics, monitoring, or day-to-day operations of their GRC program.",
+      "flags": [
+        "Responses are consistently generic and policy-focused without operational detail",
+        "No specific tools, frequencies, or responsible roles mentioned beyond annual reviews",
+        "Heavy reliance on framework references (ISO 27001, COSO) without implementation specifics"
+      ]
+    },
+    {
+      "domain_code": "HRS",
+      "domain_name": "Human Resources",
+      "score": 6,
+      "maturity": "Medium",
+      "summary": "Microsoft demonstrates established HR security policies and procedures across all control areas with consistent annual review processes. However, responses lack operational specificity and rely heavily on generic policy statements without detailing implementation mechanisms, monitoring processes, or measurable outcomes.",
+      "flags": [
+        "Responses consistently lack operational detail - no mention of specific tools, processes, frequencies, or responsible roles beyond generic policy references",
+        "Heavy reliance on boilerplate language across multiple controls suggests copy-paste approach rather than tailored responses",
+        "No evidence of how policies are monitored for compliance or effectiveness beyond annual ISMS reviews",
+        "Background verification responses (HRS-01) mention 'additional screening' for customer data access but provide no specifics on what this entails or how it's implemented"
+      ]
+    },
+    {
+      "domain_code": "IAM",
+      "domain_name": "Identity & Access Management",
+      "score": 6,
+      "maturity": "Medium",
+      "summary": "Microsoft Azure demonstrates functional IAM controls with established policies, Active Directory management, and quarterly access reviews. However, responses lack operational specificity and rely heavily on generic policy references rather than demonstrating mature implementation details.",
+      "flags": [
+        "Generic responses across multiple controls - same boilerplate language repeated",
+        "IAM-12 questions about logging infrastructure answered with unrelated content about user identification",
+        "Lack of specific tools, processes, or technical implementation details beyond Active Directory",
+        "No evidence of automated provisioning/deprovisioning workflows beyond basic AD account disabling",
+        "Missing details on privileged access management tooling despite claiming JIT implementation"
+      ]
+    },
+    {
+      "domain_code": "IPY",
+      "domain_name": "Interoperability & Portability",
+      "score": 6,
+      "maturity": "Medium",
+      "summary": "Microsoft Azure demonstrates basic compliance with interoperability and portability requirements through established APIs, encryption protocols, and contractual data retention commitments. However, responses rely heavily on high-level service descriptions rather than specific policy documentation, procedures, or operational details that would demonstrate mature implementation of the control framework.",
+      "flags": [
+        "IPY-01 responses describe Azure capabilities rather than documented policies and procedures as required",
+        "No evidence of annual policy review processes beyond generic ISMS reviews",
+        "Lack of specificity around approval, communication, and maintenance procedures for interoperability policies",
+        "IPY-02 response provides minimal detail on API security, documentation, or change management processes"
+      ]
+    },
+    {
+      "domain_code": "IVS",
+      "domain_name": "Infrastructure & Virtualization Security",
+      "score": 6,
+      "maturity": "Medium",
+      "summary": "Microsoft Azure demonstrates comprehensive infrastructure security controls with detailed technical implementations, particularly strong in network segmentation and encryption. However, responses rely heavily on generic platform descriptions rather than specific operational details like review frequencies, responsible teams, or monitoring thresholds.",
+      "flags": [
+        "Responses read like marketing material rather than operational evidence",
+        "Lack of specific implementation details (frequencies, thresholds, responsible roles)",
+        "Some answers appear to be copy-paste from standard Azure documentation"
+      ]
+    },
+    {
+      "domain_code": "LOG",
+      "domain_name": "Logging & Monitoring",
+      "score": 6,
+      "maturity": "Medium",
+      "summary": "Microsoft Azure demonstrates functional logging and monitoring capabilities with established procedures and automated systems. However, responses consistently lack operational specificity about implementation details, tools, and processes. While controls appear to be in place, the evidence provided is often generic and does not demonstrate the depth of implementation expected for a major cloud provider.",
+      "flags": [
+        "Generic responses lacking specific implementation details across multiple controls",
+        "LOG-08 response does not address the control requirement for customer data sanitization capabilities",
+        "LOG-10 response appears to address wrong control (discusses access management instead of audit record protection)",
+        "Inconsistent detail levels - some controls well-evidenced while others provide minimal substance"
+      ]
+    },
+    {
+      "domain_code": "SEF",
+      "domain_name": "Security Incident Management, E-Discovery, & Cloud Forensics",
+      "score": 6,
+      "maturity": "Medium",
+      "summary": "Microsoft Azure demonstrates established incident management frameworks with 24x7 monitoring and defined processes. However, responses lack operational specificity around timelines, metrics, and technical implementation details. Several answers are non-responsive to the specific questions asked.",
+      "flags": [
+        "SEF-07.1 answer describes breach notification procedures but question asks about technical measures for security breach notifications - misaligned response",
+        "SEF-05.1 claims metrics are established but provides no examples of actual metrics being tracked or reported",
+        "Multiple responses rely on generic statements about 'established frameworks' without demonstrating operational maturity through specific tools, timelines, or measurable outcomes"
+      ]
+    },
+    {
+      "domain_code": "STA",
+      "domain_name": "Supply Chain Transparency, Accountability & Risk",
+      "score": 6,
+      "maturity": "Medium",
+      "summary": "Microsoft Azure demonstrates basic supply chain management practices with documented customer responsibility matrices and annual review processes. However, responses consistently lack operational specificity and rely heavily on generic statements about contractual requirements and annual reviews without detailing implementation mechanisms or monitoring practices.",
+      "flags": [
+        "Generic responses across multiple controls - most answers reference 'contractual requirements' and 'annual reviews' without specific implementation details",
+        "STA-01.2 response is non-responsive - discusses PCI audit verification rather than SSRM policy review processes",
+        "Lack of operational detail on supply chain inventory management, risk assessment methodologies, or monitoring practices",
+        "No evidence of automated tooling, specific metrics, or measurable outcomes in supply chain management processes"
+      ]
+    },
+    {
+      "domain_code": "TVM",
+      "domain_name": "Threat & Vulnerability Management",
+      "score": 6,
+      "maturity": "Medium",
+      "summary": "Microsoft Azure demonstrates functional vulnerability management with quarterly scanning, patch management processes, and CVSS-based prioritization. However, responses lack operational specificity around detection frequencies, remediation timelines, and threat modeling implementation. Several answers are non-responsive to the actual questions asked.",
+      "flags": [
+        "TVM-04.1 answer describes scanning frequency but question asks about threat analysis processes and procedures",
+        "TVM-05.1 answer discusses vendor monitoring instead of third-party library vulnerability identification",
+        "Multiple responses rely on generic statements without specific implementation details",
+        "Inconsistent detail levels across controls - some well-evidenced, others superficial"
+      ]
+    },
+    {
+      "domain_code": "UEM",
+      "domain_name": "Universal Endpoint Management",
+      "score": 8,
+      "maturity": "High",
+      "summary": "Strong implementation of SAW-based endpoint security with consistent technical controls and enforcement mechanisms. All controls demonstrate operational maturity with specific technical details about hardened configurations, automated enforcement, and compliance monitoring. One control (UEM-14) shows N/A response with brief justification that may warrant validation.",
+      "flags": [
+        "UEM-14 marked N/A with minimal justification - verify that third-party access restrictions are absolute and documented"
+      ]
+    }
+  ]
+}
